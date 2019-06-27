@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="beans.RunactivityEntity" table="runactivity" schema="run">
+        <id name="id" column="id"/>
+        <property name="place" column="place"/>
+        <property name="totalPeople" column="total_people"/>
+        <property name="startTime" column="start_time"/>
+        <property name="endTime" column="end_time"/>
+        <property name="nowPeople" column="now_people"/>
+    </class>
+</hibernate-mapping>

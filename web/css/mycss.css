@@ -1,0 +1,13 @@
+#choose{
+    align-content: center;
+}
+#choose span{
+    margin: 0 100px;
+}
+#choose .input-group{
+    /*width: 25%;*/
+    /*margin: 0 70%;*/
+    width: 150px;
+    margin: 20px 45%;
+    padding: -50px;
+}

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="hibernate_tc">
+    <CLASSES>
+      <root url="file://E:/JavaLibrary/hibernate_tc" />
+      <root url="file://E:/JavaLibrary/struts-2.3.35" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src" />
+    </SOURCES>
+    <jarDirectory url="file://E:/JavaLibrary/hibernate_tc" recursive="false" />
+    <jarDirectory url="file://E:/JavaLibrary/struts-2.3.35" recursive="false" />
+  </library>
+</component>
