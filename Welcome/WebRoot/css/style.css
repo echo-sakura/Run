@@ -1,0 +1,189 @@
+@CHARSET "UTF-8";
+h1,h3,p,a,button{
+    font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB";
+}
+
+/*导航*/
+.side-nav{
+    position: fixed;
+    top:45%;
+    right:20px;
+    z-index: 1;
+}
+.side-nav ul.nav-side-nav{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.side-nav ul.nav-side-nav >li{
+    display: block;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 8px 0;
+}
+.side-nav ul.nav-side-nav >li >a{
+    display: block;
+    width:80px;
+    height: 25px;
+    font-size:14px;
+}
+.side-nav ul.nav-side-nav >li >a:hover{
+    color:#1eb450;
+}
+/*top*/
+.onepage{
+    height: 750px;
+}
+.onepage-bg{
+    height: 760px;
+    width:100%;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+}
+#onepagebg{
+    background-image: url("../images/11.JPG");
+}
+
+.title-text{
+    margin-left:50px;
+}
+.headh1content{
+    margin-top: 150px;
+    line-height: 75px;
+}
+
+.headfontsize h1{
+    font-size: 50pt;
+    color: #fff;
+}
+
+.headfontsize h3,.headfontsize p{
+    color: #fff;
+}
+
+.headfontsize .headtext{
+    color: #d1e973;
+    font-size: 12pt;
+}
+.btn-app-store{
+    margin-top:15px;
+}
+/*middle*/
+.twopage{
+    padding:2px 0 0 2px;
+    height: auto;
+    background-image: url("../images/6.jpg");
+    position: relative;
+}
+.twopage-text{
+    width:100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.twopage-text-h1{
+    margin-left: 120px;
+    letter-spacing: 2px;
+    margin-top:20px;
+    margin-bottom: 0;
+    padding: 20px 0 0 0;
+}
+.twopage-text-h1 img{
+    width:120px;
+    margin-top: -20px;
+}
+.twopage .row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.twopages-courses{
+    float: left;
+    background: #fff;
+    padding: 0 2px 2px 0;
+    position: relative;
+
+}
+.twopages-courses >a{
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.twopages-courses >a >img{
+    width:100%;
+    height: 260px;
+}
+.classicon{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    color:#fff;
+    opacity: 0;
+}
+.classicon h3{
+    margin-top: 120px;
+    color: #d1e973;
+}
+.classicon h1{
+    color:#fff5e1;
+}
+.classicon:hover{
+    background: #1eb450;
+    opacity: 0.9;
+    transition: opactiy 0.5s;
+    -webkit-transition:opactiy 0.5s;
+    -o-transition: opactiy 0.5s;
+    -moz-transition: opactiy 0.5s;
+    -ms-transition: opactiy 0.5s;
+}
+.twopagebtn{
+    width:100%;
+    margin:0% auto;
+    text-align: center;
+}
+.twopagebtn .btn-lg{
+    font-size: 25px;
+}
+#twopage-easy{
+    margin: 30px 0;
+}
+
+/*down*/
+.threepage{
+    position: absolute;
+    width: 100%;
+    height: 760px;
+}
+.threepage-bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#threepagebg{
+    background-image: url("../images/3.jpg");
+}
+.threepagecontent{
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.threepagetext{
+    margin-top: 60px;
+    color: #1eb450;
+}
+.threepagetext p{
+    margin-top: 20px;
+    font-size: 12pt;
+    line-height: 30px;
+}
+.threepagecontentbtn{
+    margin-top: 200px;
+    font-size: 25px;
+}
