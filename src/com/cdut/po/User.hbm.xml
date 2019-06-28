@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+	<class name="com.cdut.po.User" table="tb_user">
+		<id name="account" type="string">
+			<generator class="assigned"></generator>
+		</id>
+		<property name="pwd"></property>
+		<property name="phone"></property>
+		<property name="email"></property>
+	</class>
+</hibernate-mapping>
